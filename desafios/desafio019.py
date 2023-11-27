@@ -1,5 +1,8 @@
-''' um professor quer sortear um dos seus quatro alunos para apagar o quadro. faça um programa que 
-ajude ele, lendo o nome deles e escrevendo o nome do escolhido '''
+#desafio019
+
+'''
+Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o nome deles e exibindo o nome do escolhido.
+'''
 
 import math 
 
