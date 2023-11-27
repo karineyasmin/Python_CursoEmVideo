@@ -1,4 +1,8 @@
-#desafio012 - algortimo que leia preço de um produto e mostre seu novo preço com 5% de desconto 
+#desafio012 
+''' Crie um algortimo que leia preço de um produto e mostre seu novo preço com 5% de desconto.
+'''
+
+#CODIGO:
 
 produto = float(input('Digite o preço do produto: '))
 desconto = (produto * 5) / 100
