@@ -4,6 +4,8 @@
 Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o nome deles e exibindo o nome do escolhido.
 '''
 
+#CODIGO:
+
 import math 
 
 aluno1 = input('Digite o nome do aluno(a): ')
