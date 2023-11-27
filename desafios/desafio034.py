@@ -1,9 +1,8 @@
-''' escreva um programa que pergunte o salario de um funcionario e calcule o valor 
-do seu aumento
+'''Escreva um programa que pergunte o salário de um funcionário e calcule o valor do seu aumento.
+Para salários superiores a R$ 1.250,00, calcule um aumento de 10%;
+Para os inferiores ou iguais, o aumento é de 15%.'''
 
-para salarios superiores a R$ 1.250,00, calcule um aumento de 10%
-
-para os inferiores ou iguais, o aumento é de 15%'''
+#CODIGO
 
 salario = float(input('Digite o salário: '))
 
