@@ -1,11 +1,13 @@
-''' desenvolva um programa que pergunte a distancia de uma viagem em km.
+#desafio031
+'''
+Desenvolva um programa que pergunte a distancia de uma viagem em Km.
 
-calcule o preço da passagem, cobrando R$ 0,50 por KM para viagens de até 200 km e R$ 0,45  
-para viagens mais longas'''
-
+Calcule o preço da passagem, cobrando R$ 0,50 por KM para viagens de até 200 km 
+e R$ 0,45 para viagens mais longas
+'''
+#CODIGO:
 
 distancia = float(input('Qual a distância da viagem em Km ?\n'))
-
 
 if distancia <= 200:
     print(f'A distância foi de {distancia} KM')

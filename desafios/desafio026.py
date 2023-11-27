@@ -1,10 +1,15 @@
-'''Faça um programa que leia uma frase pelo teclado e mostre:
+#desafio026
+'''
+Faça um programa que leia uma frase pelo teclado e mostre:
 
 - quantas vezes aparece a letra "A"
 
 - em que posição ela aparece a primeira vez
 
-- em que posição ela aparece a última vez'''
+- em que posição ela aparece a última vez
+'''
+
+#CODIGO:
 
 frase = str(input('Digite uma frase: ' )).upper().strip()
 

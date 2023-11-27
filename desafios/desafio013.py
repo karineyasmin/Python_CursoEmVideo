@@ -1,4 +1,5 @@
-#desafio013 - Algortimo que lê o salário de um funcionário e mostra seu novo salário com 15% de aumento.
+#desafio013 
+# Crie um algortimo que lê o salário de um funcionário e mostra seu novo salário com 15% de aumento.
 
 #CODIGO:
 

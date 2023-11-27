@@ -1,6 +1,7 @@
 #desafio012 
-''' Crie um algortimo que leia preço de um produto e mostre seu novo preço com 5% de desconto.
-'''
+
+#Crie um algortimo que leia preço de um produto e mostre seu novo preço com 5% de desconto.
+
 
 #CODIGO:
 

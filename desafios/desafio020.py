@@ -1,5 +1,10 @@
-''' o mesmo professor quer sortear a ordem de apresentação de trabalhos dos alunos,
-faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada '''
+#desafio020
+
+''' 
+Um professor quer sortear a ordem de apresentação de trabalhos dos alunos,
+faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada 
+'''
+#CODIGO:
 
 from random import shuffle
 

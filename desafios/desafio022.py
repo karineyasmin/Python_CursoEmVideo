@@ -1,8 +1,13 @@
-'''crie um programa que leia o nome completo de uma pessoa e mostre:
+#desafio022
+'''
+Crie um programa que leia o nome completo de uma pessoa e mostre:
 - o nome com todas as letras maiúsculas
 - todas minúsculas
 - quantas letras ao todo (sem considerar espaços)
-- quantas letras tem o primeiro nome'''
+- quantas letras tem o primeiro nome
+'''
+
+#CODIGO:
 
 nome = str(input('Digite seu nome completo: '))
 maius = nome.upper()
