@@ -7,6 +7,8 @@ Crie um programa que leia um numero real qualquer e mostre na tela sua porção 
 6
 '''
 
+#CODIGO:
+
 import math
 
 numero = float(input('Digite um número real: '))
