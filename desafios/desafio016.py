@@ -1,8 +1,10 @@
-'''crie um programa que leia um numero real qualquer e mostre na tela sua porção inteira
+#desafio016
+
+'''
+Crie um programa que leia um numero real qualquer e mostre na tela sua porção inteira. Exemplos
 
 6.127
 6
-
 '''
 
 import math
