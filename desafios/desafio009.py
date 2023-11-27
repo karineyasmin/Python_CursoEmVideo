@@ -1,4 +1,6 @@
-#desafio009 - programa pra ler um número qualquer e mostrar na tela sua tabuada
+#desafio009 - Programa pra ler um número qualquer e mostrar na tela sua tabuada
+
+#CODIGO:
 
 num = int(input(' Digite um número inteiro: '))
 
