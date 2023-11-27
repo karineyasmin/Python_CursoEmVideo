@@ -1,4 +1,7 @@
-#desafio008 - Código para ler valor em metros e fazer a conversão em centímetros e milímetros.
+#desafio008
+'''
+Crie um código para ler valor em metros e fazer a conversão em centímetros e milímetros.
+'''
 
 #CODIGO:
 
