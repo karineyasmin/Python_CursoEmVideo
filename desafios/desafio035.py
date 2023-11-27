@@ -1,5 +1,4 @@
-''' Desenvolva um programa que leia o comprimento de três retas e diga ao usuario 
-se elas podem ou não formar um triângulo '''
+''' Desenvolva um programa que leia o comprimento de três retas e diga ao usuario se elas podem ou não formar um triângulo '''
 
 
 ''' "Dados três segmentos de reta distintos, se a soma das medidas de dois deles é sempre
@@ -13,6 +12,7 @@ se elas podem ou não formar um triângulo '''
 
 30 + 20 = 50 > 16"'''
 
+# CODIGO:
 
 lado1 = float(input('\nQual o comprimento da primeira reta?\n'))
 lado2 = float(input('\nQual o comprimento da segunda reta?\n'))
