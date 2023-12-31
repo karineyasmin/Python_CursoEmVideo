@@ -12,7 +12,7 @@ limite = 80
 multa = (velocidade - limite) * 7
 
 if velocidade > limite:
-    print(f'você foi multado! A velocidade máxima permitida é de 80 Km/h, você estava a {velocidade}')
+    print(f'Você foi multado! A velocidade máxima permitida é de 80 Km/h, você estava a {velocidade}')
     print(f'Sua multa será de {multa}')
 else: 
     print('Você está dentro do limite de velocidade.')
