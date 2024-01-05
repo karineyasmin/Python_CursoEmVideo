@@ -1,12 +1,13 @@
-#desafio008
 '''
-Crie um código para ler valor em metros e fazer a conversão em centímetros e milímetros.
-'''
+desafio008
+Enunciado
 
-#CODIGO:
+Crie um código para ler um valor em metros e fazer a conversão em centímetros e milímetros. '''
+#------------------------------------------------------------------------------------------------------------------------
+#código
 
 metros = float(input('Digite o valor em metros: '))
 
-print(f'\nVocê digitou {metros} em metros') 
-print(f'\n{metros} é equivalente a {metros * 100} centímetros')
-print(f'\n{metros} é equivalente a {metros * 1000} milímetros ')
+print(f'\nVocê digitou {metros} m') 
+print(f'\n{metros} m é equivalente a {metros * 100} centímetros')
+print(f'\n{metros} m é equivalente a {metros * 1000} milímetros ')

@@ -1,11 +1,14 @@
-#desafio010 - Programa para ler quanto dinheiro a pessoa tem na carteira e mostrar quantos dolares ela pode comprar 
-# ***dolar a 3,27***
+'''
+desafio010
 
-#CODIGO:
+Crie um programa para ler quanto dinheiro a pessoa tem na carteira e mostrar quantos dólares ela pode comprar. '''
+# ***dolar a 3,27***
+#------------------------------------------------------------------------------------------------------------------------
+#código
 
 real = float(input('Quanto você tem quem reais? '))
 dolar = real * 3.27
 
-print(f'\nVocê tem R${real}')
-print(f'\nQue equivale a ${dolar}')
+print(f'\nVocê tem R${real:.2f}')
+print(f'\nQue equivale a ${dolar:.2f}')
 

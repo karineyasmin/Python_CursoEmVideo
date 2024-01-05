@@ -1,7 +1,10 @@
-#desafio007
-#Programa para ler duas notas e calcular a média de duas notas.
+'''
+desafio007
+Enunciado
 
-#CODIGO:
+Crie um programa para ler e calcular a média de duas notas. '''
+#------------------------------------------------------------------------------------------------------------------------
+#código
 
 nota1 = float(input('Digite a primeira nota: '))
 nota2 = float(input('Digite a segunda nota: '))

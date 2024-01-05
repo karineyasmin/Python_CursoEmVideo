@@ -1,10 +1,14 @@
-#desafio009 - Programa pra ler um número qualquer e mostrar na tela sua tabuada
+'''
+desafio009
+Enunciado
 
-#CODIGO:
+Crie um programa pra ler um número qualquer e mostrar na tela sua tabuada. '''
+#------------------------------------------------------------------------------------------------------------------------
+#código
 
-num = int(input(' Digite um número inteiro: '))
+num = int(input('Digite um número inteiro: '))
 
-print(f'O número digitado foi: {num}')
+print(f'\nO número digitado foi: {num}')
 
 print(f'\nA tabuada de {num} é: ')
 print(f'\n{num} x 1  = {num * 1}')
