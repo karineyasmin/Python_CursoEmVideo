@@ -1,18 +1,18 @@
-#desafio019
-
 '''
-Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o nome deles e exibindo o nome do escolhido.
-'''
+desafio019
+Um professor quer sortear um dos seus quatro alunos para apagar o quadro. 
+Faça um programa que ajude ele, lendo o nome deles e exibindo o nome do escolhido. '''
+#------------------------------------------------------------------------------------------------------------------------
+#código
 
-#CODIGO:
+from random import choice
 
-import math 
+aluno1 = input(str('Digite o nome do aluno(a): '))
+aluno2 = input(str('Digite o nome do aluno(a): '))
+aluno3 = input(str('Digite o nome do aluno(a): '))
+aluno4 = input(str('Digite o nome do aluno(a): '))
 
-aluno1 = input('Digite o nome do aluno(a): ')
-aluno2 = input('Digite o nome do aluno(a): ')
-aluno3 = input('Digite o nome do aluno(a): ')
-aluno4 = input('Digite o nome do aluno(a): ')
+lista = [aluno1,aluno2, aluno3, aluno4] 
+escolhido = choice(lista)
 
-lista =  (aluno1,aluno2, aluno3, aluno4) 
-
-print(f'O aluno sorteado foi: {}')
+print(f'O aluno sorteado foi: {escolhido}')

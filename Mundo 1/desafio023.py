@@ -1,5 +1,5 @@
-#desafio023
 '''
+desafio023
 Faça um programa que leia um número de 0 a 999 e mostre na tela cada um dos digitos separados.
 
 ex: digite um numero: 1834
@@ -10,10 +10,9 @@ milhar:1
 
 Pra ficar mais claro:
 o símbolo // faz a divisão e só pega o que esta antes da vírgula.
-o símbolo % faz a divisão e só pega o que esta depois da vírgula.
-'''
-#CODIGO:
-
+o símbolo % faz a divisão e só pega o que esta depois da vírgula. '''
+#------------------------------------------------------------------------------------------------------------------------
+#código
 num = input('Digite um número de 0 a 999: ')
 
 unidade = num[-3]
@@ -37,4 +36,4 @@ m = num // 1000 % 10
 print(f'Unidade: {u}')
 print(f'Dezena: {d}')
 print(f'Centena: {c}')
-print(f'Milhar: {m}')
+print(f'Milhar: {m}')'''
