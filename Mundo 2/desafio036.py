@@ -2,10 +2,9 @@
 desafio-036 
 Enunciado:
 
-Escreva um programa para aprovar o empréstimo bancário para a compra de uma casa.
-O programa vai perguntar o valor da casa, o salário do comprador e em quantos anos ele vai pagar.
-
-Calcule o valor da prestação mensal, sabendo que ela não vai poder excer 30% do salario ou entao o empréstimo será negado '''
+Escreva um programa para aprovar o empréstimo bancário para a compra de uma casa. 
+Pergunte o valor da casa, o salário do comprador e em quantos anos ele vai pagar. 
+A prestação mensal não pode exceder 30% do salário ou então o empréstimo será negado. '''
 
 #--------------------------------------------------------------------------------#
 #código:
@@ -15,17 +14,17 @@ print('\nCALCULADORA DE FINANCIAMENTO IMOBILIARIO')
 print('-' * 40) 
 
 valorCasa = float(input('\nQual é o valor do imóvel? R$'))
-salario = float(input('\nDigite o seu salário: R$'))
-prazoAnos = int(input('\nEm quantos anos você quer pagar? '))
+salario = float(input('\nQual o salário do comprador? R$'))
+prazoAnos = int(input('\nQuantos anos de financiamento? '))
 prazoMeses = prazoAnos * 12
-
 porcentagemSalario = float((30 * salario) / 100) #30% do salario
 valorParcela = valorCasa / prazoMeses
-
-if porcentagemSalario > valorParcela:
-    print('\nParabéns. Seu empréstimo está aprovado.')
-    print(f'\nSua parcela será de R${valorParcela:.2}')
+print('-' * 40) 
+if porcentagemSalario >= valorParcela:
+    print('\nEmpréstimo pode ser aprovado.')
+    print(f'\nA parcela será de R${valorParcela:.2f}')
 else:
-    print('\nSinto muito. Seu empréstimo foi negado')
-    print('A parcela excederia o limite de 30% do valor do seu salario')
+    print('\nO empréstimo foi negado')
+    print(f'A parcela seria de R${valorParcela:.2f}.')
+    print('Ela excederia o limite de 30% do valor do salário.')
 print('-' * 40) 

@@ -9,14 +9,15 @@ Escreva um programa que leia dois números inteiros e compare-os. Mostrando na t
 - Não existe valor maior. Os dois são iguais '''
 #------------------------------------------------------------------------------------------------------------------------------------------------------
 #Código:
-print('=-' * 40)
+print('=-' * 15)
 
 num1 = int(input('Digite o primeiro número: '))
-num2 = int(input('\nDigite o segundo número: '))
+num2 = int(input('Digite o segundo número: '))
 
 if num1 > num2:
-    print(f'\nO número {num1} é o maior')
+    print('\nO PRIMEIRO número é o MAIOR')
 elif num2 > num1:
-    print(f'\nO número {num2} é o maior')
+    print('\nO SEGUNDO número é o MENOR')
 elif num1 == num2:
-    print('\nNão existe valor maior. Os dois são iguais')
+    print('\nOs dois números são IGUAIS')
+print('=-' * 15)
